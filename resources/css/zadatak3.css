@@ -1,0 +1,7 @@
+.root {
+    -fx-background-color: #ff7954;
+}
+Button {
+    -fx-border-style: none;
+    -fx-border-color: none;
+}

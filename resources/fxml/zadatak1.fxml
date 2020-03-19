@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.zadatak1" stylesheets="/css/zadatak1.css">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button fx:id="dugme" onAction="#promijeni" mnemonicParsing="false" text="Say Hello World!" GridPane.columnIndex="1" />
+      <Label fx:id="text" text="" />
+   </children>
+</GridPane>
